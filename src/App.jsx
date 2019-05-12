@@ -1,7 +1,12 @@
 import React from 'react';
+import { DarkModeProvider } from './Contexts/Darkmode';
+import Layout from './Components/Layout';
 import './Styles/Reset.css';
-import './Styles/AppStyle.css';
 
-const App = () => <div className="app">Hello</div>;
+const App = () => (
+  <DarkModeProvider>
+    <Layout />
+  </DarkModeProvider>
+);
 
 export default App;
