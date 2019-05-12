@@ -4,7 +4,7 @@ import theme from '../../Styles';
 const HeaderStyle = WrappedComponent => styled(WrappedComponent)`
   background:transparent;
   position: relative;
-  min-height:220px;
+  min-height:120px;
   .header{
     &__logo{
       position:absolute;
